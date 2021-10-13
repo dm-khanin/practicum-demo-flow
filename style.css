@@ -1,0 +1,150 @@
+.page {
+  margin: 0;
+  min-height: 10000vh;
+}
+
+section {
+  box-shadow: 0 0 2px grey;
+}
+
+.students {
+  width: 200px;
+  height: 200px;
+  font-size: 50px;
+}
+
+.first-paragraph {
+  width: 300px;
+}
+
+.ivrit p {
+  direction: rtl;
+}
+
+.japan p {
+  writing-mode: vertical-rl;
+}
+
+.box-container .box-model {
+  width: 400px;
+  background-color: #000;
+  color: white;
+  border: 5px solid red;
+  padding: 10px;
+  margin: 40px auto;
+  box-sizing: border-box;
+}
+
+.inline-and-block span {
+  font-size: 50px;
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 250px;
+}
+
+.columns p {
+  column-count: 5;
+}
+
+.columns img {
+  width: 100%;
+}
+
+.flex p {
+  font-size: 50px;
+}
+
+.flex {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.grid {
+  background-color: brown;
+  display: grid;
+  min-height: 500px;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(3, 300px);
+  gap: 10px
+}
+
+.cell {
+  box-shadow: 0 0 2px white;
+}
+
+.outer {
+  height: 800px;
+  display: flex;
+  align-items: flex-end;
+  background-color: violet;
+}
+
+.absolute {
+  height: 500px;
+  background-color: lightgreen;
+  position: relative;
+}
+
+.red-round {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.relatived {
+  position: relative;
+  top: 20px;
+  left: -20px;
+}
+
+.black-round {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.sticky {
+  height: 500px;
+  background-color: pink;
+  display: flex;
+  align-items: flex-start;
+}
+
+.orange-round {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  background-color: orange;
+  border-radius: 50%;
+  position: sticky;
+  top: 20px;
+  right: 10px;
+}
+
+.float {
+  background-color: darkslategray;
+  width: 700px;
+  height: 500px;
+}
+
+.float img {
+  width: 200px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
